@@ -1,0 +1,7 @@
+<view class='container'>
+  <image class='user-image' src="/images/emmm.png"></image>
+  <text class='user-name'>Hello,略略略</text>
+  <view class='moto-container'>
+    <text class='moto'>小仙女之门</text>
+  </view >
+</view>
