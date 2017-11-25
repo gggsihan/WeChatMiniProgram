@@ -1,0 +1,19 @@
+<view class='container'>
+    <image class='head-img' src='{{postData.headImgSrc}}'></image>
+	<image class='music' src='/images/music/music-start.png'></image>
+    <view class='author-date'>
+        <image class='avater' src='{{postData.avatar}}'></image>
+        <text class='author'>{{postData.author}}</text>
+        <text class='const-text'>发表于</text>
+        <text class='date'>{{postData.date}}</text>
+    </view>
+    <text class='title'>{{postData.title}}</text>
+    <view class='tool'>
+		<view class='circle-img'>
+			<image src='/images/icon/collection.png'></image>
+    		<image class='share-img' src='/images/icon/share.png'></image>
+		</view>
+        <view class='horizon'></view>
+    </view>
+	<text class='detail'>{{postData.detail}}</text>
+</view>

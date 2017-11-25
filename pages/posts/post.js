@@ -14,10 +14,18 @@ Page({
    */
   onLoad: function (options) {
     /*假设从服务器传来参数*/
-    
+
     this.setData({
         data_key:postData.postList
-    });
+    })
+    
+  },
+  
+  onPostTap:function(event){
+      var postId=event.currentTarget.dataset.postId;
+      wx.navigateTo({
+          url: 'post-detail/post-detail?id='+postId,
+      })
   }
 
 })
