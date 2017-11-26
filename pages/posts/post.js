@@ -14,7 +14,6 @@ Page({
    */
   onLoad: function (options) {
     /*假设从服务器传来参数*/
-
     this.setData({
         data_key:postData.postList
     })
