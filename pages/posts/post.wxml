@@ -1,15 +1,15 @@
 <import src="post-item/post-item-template.wxml" /><!--相对路径和绝对路径都可以-->
 
 <view>
-    <swiper indicator-dots='true' autoplay='true' interval='5000'>
+    <swiper catchtap='onSwiperTap' indicator-dots='true' autoplay='true' interval='5000'>
         <swiper-item>
-        <image src='/images/3.jpg'></image>
+        <image src='/images/post-img/17.jpg' data-post-id='0'></image>
         </swiper-item>
         <swiper-item>
-            <image src='/images/2.png'></image>
+            <image src='/images/post-img/20.jpg' data-post-id='2'></image>
         </swiper-item>
         <swiper-item>
-            <image src='/images/1.jpeg'></image>
+            <image src='/images/post-img/四周年.jpg' data-post-id='3'></image>
         </swiper-item>
     </swiper>
 
